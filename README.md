@@ -26,6 +26,9 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+-Changed it from querySelector to getElementById
+-Most importantly I moved the script loading line to the bottom of the HTML doc, since it
+can't edit anything if it's not loaded.
 
 ```
 
